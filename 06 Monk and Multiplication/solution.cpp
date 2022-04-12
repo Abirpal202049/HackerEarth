@@ -23,11 +23,7 @@ int main()
         if (j == i && us.size() >= 3)
         {
             cout << (*us.begin()) * (*(++us.begin())) * (*(++(++us.begin()))) * -1 << endl;
-            // cout<<(*us.begin())<<" "<<(*(++us.begin()))<<" "<<(*(++(++us.begin())))<<endl;
-            // for(auto value : us){
-            //     cout<<value<<" ";
-            // }
-            // cout<<endl;
+            
         }
         else if (j == i && us.size() < 3)
         {
