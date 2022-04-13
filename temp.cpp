@@ -4,10 +4,10 @@ using namespace std;
 
 int main(){
     string address = "1.1.1.1";
-    address.replace(3,3,"tyu");
-    address.insert(2,"rrr");
-    int dot = address.find(".");
-    cout<<dot;
+    // address.replace(3,3,"tyu");
+    // address.insert(2,"rrr");
+    // int dot = address.find(".");
+    // cout<<dot;
     for(auto &value : address){
         cout<<value<<endl;
     }
